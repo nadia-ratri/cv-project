@@ -1,0 +1,114 @@
+/*overall body margin and padding 0. this have to use in every project.*/
+*{
+    margin: 0;
+    padding: 0px;
+}
+/*body background color*/
+body{
+    background-color: #DCDCDC;
+    font-family: "Roboto", sans-serif;
+}
+/* container style*/
+.container{
+    background-color: #AFEEEE;
+    max-width: 1000px; /*use max width for when minimize the screen the page adjust in width*/
+    margin: 0 auto; /*for center align the container*/
+    padding: 20px;
+}
+.profile {
+    width: 100px;
+    
+    border: #DCDCDC solid 2px;
+    border-radius: 50px; /*image oval shape*/
+    float : left; /*header_name left align korar jonno*/
+    }
+.header-name{
+    float : left;/*header-name r ectu side e nite*/
+    padding: 30px;/*middle e anar jonno*/
+}
+/*sob h tag er style er jonno*/
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+.header-contract{
+    float: right ;
+    padding: 30px;
+}
+/*link style*/
+.header-contract a{
+    text-decoration: none;/*underline remove er jonno*/
+    color: teal;
+    font-weight: bold;
+    
+}
+.header-contract a:hover{
+    color: tomato;
+    
+}
+/*div clear kora lagbe*/
+.div-clear{
+    clear:both;
+}
+hr{
+    border: black solid 3px;
+    margin: 20px auto; /*margin 20px dile ectuu niche name and auto use korle middle e jabe*/
+    border-bottom: none;
+}
+/*personal information section style start */
+#personal{
+    margin: 20px auto;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+    
+}
+/*personal information section style end */
+.common-hr{
+    border: black solid 1px;
+    
+}
+.edu-left-div{
+    float: left;
+    width: 45%;
+
+}
+.edu-right-div{
+    float: right;
+    width: 45%;
+    
+}
+.reference-left-div{
+    float: left;
+    width: 45%;
+
+}
+.reference-right-div{
+    float: right;
+    width: 45%;
+    
+}
+.footer-contain{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+.footer-contain a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 20px;
+
+}
+.footer-contain a:hover{
+    color: gray;
+
+}
